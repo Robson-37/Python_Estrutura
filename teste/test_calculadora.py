@@ -8,7 +8,7 @@ class TesteCalculadora(unittest.TestCase):
 
     def test_somar(self):
         resultado = calculadora.somar(3,2)
-        self.assertEqual(resultado,6)
+        self.assertEqual(resultado,5)
 
     def test_subtrair(self):
         resultado = calculadora.subtrair(3,1)
